@@ -97,7 +97,7 @@ int main(){
             break;
         } 
         else if(choice=="c"){
-            cout<<"What task do you wish to complete? ";
+            cout<<"Which task do you wish to complete? ";
             cin>>input_id;
             for (it=tdm.begin(); it!=tdm.end(); it++){
                 if (input_id == it->getid()){
@@ -106,7 +106,7 @@ int main(){
             }
         }
         else if(choice=="a"){
-            cout<<"Please add a new description: ";
+            cout<<"Please add a new task: ";
             string input_description;
             cin.ignore();
             getline(cin, input_description);
